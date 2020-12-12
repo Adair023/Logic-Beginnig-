@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdio.h>
+
+int main(void){
+   //INICIO ALGORITIMO 
+  printf("Hello World\n");
+  
+  
+int a,h,b; // INCLUINDO AS VARIÁVEIS
+
+//ESCREVA ==  printf 
+printf("Digite a altura:   ");
+scanf("%d", &a);
+
+printf("Digite a base:  ");
+scanf("%d", &b);
+
+
+//  Cáculo da área
+a = b * h;
+printf("A área deste retangulo é: %d\n", a); 
+// IMPRIMA A FORMATAÇÃO
+
+ //FIM ALGORÍTIMO
+
+  // %d == NÚMEROS INTEIROS ""
+  // & ATRIBUI À VARIÁVEL UM ESPAÇO NA MEMÓRIA
+
+
+
+  return 0;
+}
